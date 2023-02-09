@@ -1,0 +1,78 @@
+  html {
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+    font-size: 28px;
+  }
+  
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px;
+    background: #f0eeee;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  ul {
+    max-width: max-content;
+    margin: 0 auto;
+    padding-top: 30px;
+    line-height: 1.6;
+  }
+  
+  img {
+    height: 25px;
+    width: 25px;
+    padding-right: 5px;
+    color: rgb(90, 89, 89);
+    vertical-align: text-bottom;
+  }
+  
+  section {
+    padding-top: 40px;
+  }
+  
+  h5 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    font-size: 1.2rem;
+  }
+  
+  .section-subtitle {
+    padding-bottom: 15px;
+  }
+
+@media (max-width: 550px) {
+  html {
+    font-size: 22px;
+  }
+
+  body {
+    padding: 18px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  ul {
+    font-size: 0.8rem;
+  }
+
+  img {
+    height: 20px;
+    width: 20px;
+    padding-right: 2px;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+}
